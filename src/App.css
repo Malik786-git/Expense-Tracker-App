@@ -1,0 +1,141 @@
+.wrapper {
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 350px;
+  margin: 0 auto;
+  color: black;
+  border: 1px solid black;
+  background-color: aliceblue;
+  box-shadow: 2px 5px 10px rgb(185, 180, 180);
+}
+
+.wrapperDark {
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: rgb(25, 27, 27);
+  width: 350px;
+  margin: 0 auto;
+  color: white;
+  box-shadow: 2px 5px 10px rgb(73, 68, 68);
+}
+.Header h1 {
+  color: white;
+  text-align: center;
+}
+.Header h1 span i {
+  color: rgb(252, 227, 0);
+  font-size: 25px;
+  margin-left: 10px;
+}
+.Balance {
+  height: 60px;
+}
+.Balance h1 {
+  display: inline;
+  margin-bottom: 100px;
+}
+.Account {
+  display: flex;
+  justify-content: space-around;
+  height: 90px;
+  width: 250px;
+  margin: 25px auto 10px auto;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+.income {
+  color: #dc3545;
+  border-right: 1px solid black;
+  width: 50%;
+}
+.expense {
+  color: green;
+  width: 50%;
+}
+.History h3 {
+  border-bottom: 1px solid rgb(161, 153, 153);
+}
+.list ul {
+  padding: 0px;
+}
+.list ul li {
+  position: relative;
+  display: block;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: white;
+  margin: 5px auto;
+  color: black;
+}
+.list .minus {
+  border-right: 5px solid #dc3545;
+}
+.list .plus {
+  border-right: 5px solid green;
+}
+
+.list ul li button {
+  display: none;
+  position: absolute;
+  left: -20px;
+  background-color: #dc3545;
+  color: white;
+  outline: none;
+  border: none;
+}
+.list ul li:hover button {
+  display: block;
+}
+.list ul li button:hover {
+  background-color: #3d0107;
+}
+
+.Add-Transaction h3 {
+  border-bottom: 1px solid rgb(161, 153, 153);
+}
+.Add-Transaction form {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+.Add-Transaction form label {
+  text-align: left;
+  padding: 5px 5px;
+}
+.Add-Transaction form input {
+  padding: 3px 3px 3px 10px;
+  outline: none;
+  border: 1px solid #dc3545;
+  border-radius: 10px;
+}
+.Add-Transaction form button {
+  margin-top: 10px;
+  padding: 5px;
+  background-color: #dc3545;
+  color: rgb(255, 255, 255);
+  outline: none;
+  border: 1px solid white;
+  font-weight: 700;
+  border-radius: 10px;
+}
+.Add-Transaction form button:hover {
+  color: #dc3545;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #dc3545;
+}
+
+.developer {
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-style: italic;
+  font-size: 14px;
+  color: white;
+}
